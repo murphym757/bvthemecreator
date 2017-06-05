@@ -1,0 +1,177 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+html, body {
+  display: table;
+  width: 100%;
+  margin: 0;
+  height: 100%;
+  text-align: center;
+  background-color: #b1d7c8;
+  background-image: image-url("Bayside.jpg");
+  background-blend-mode: multiply;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+}
+
+
+/*-------------------------------------------------*/
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+/* Small devices (phones) */
+@media (max-width: 667px) and (orientation: portrait) {
+  .logo {
+    display: inline-block;
+    padding-top: 60px;
+  }
+  .title {
+    display: inline-block;
+  }
+}
+@media (max-width: 667px) and (orientation: landscape) {
+  .logo {
+    display: inline-block;
+    max-height: 300px;
+    max-width: 300px;
+    width: 200px;
+    height: 200px;
+    padding-top: 60px;
+
+  }
+  .title {
+    display: inline-block;
+    max-height: 300px;
+    max-width: 300px;
+    width: 200px;
+    height: 200px;
+  }
+}
+/* ---------------------------------------------------- */
+/* Small devices (larger phones) */
+@media (max-width: 767px) and (orientation: portrait) {
+  .logo {
+    display: inline-block;
+    padding-top: 60px;
+  }
+  .title {
+    display: inline-block;
+  }
+}
+@media (max-width: 767px) and (orientation: landscape) {
+  .logo {
+    display: inline-block;
+    max-height: 400px;
+    max-width: 500px;
+    width: 320px;
+    height: 320px;
+    padding-top: 80px;
+  }
+  .title {
+    display: inline-block;
+    max-height: 400px;
+    max-width: 500px;
+    width: 320px;
+    height: 220px;
+  }
+}
+/* ---------------------------------------------------- */
+/* Medium devices (tablets, 768px and up/1439px and down) */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .logo {
+    display: inline-block;
+    max-height: 500px;
+    max-width: 500px;
+    width: 500px;
+    height: 500px;
+    padding-top: 150px;
+  }
+  .title {
+    display: inline-block;
+    max-height: 500px;
+    max-width: 500px;
+    width: 500px;
+    height: 500px;
+    padding-top: 150px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .logo {
+    display: inline-block;
+    max-height: 500px;
+    max-width: 500px;
+    width: 400px;
+    height: 400px;
+    padding-top: 150px;
+  }
+  .title {
+    display: inline-block;
+    max-height: 500px;
+    max-width: 500px;
+    width: 400px;
+    height: 200px;
+    padding-top: 100px;
+  }
+}
+/* ---------------------------------------------------- */
+/* Large devices (Laptops (and large resolution tablets), 1025px to 1439px) */
+@media (min-width: 1025px) and (max-width: 1439px) and (orientation: portrait) {
+  .logo {
+    display: inline-block;
+    max-height: 500px;
+    max-width: 500px;
+    width: 400px;
+    height: 400px;
+    padding-top: 200px;
+  }
+  .title {
+    display: inline-block;
+    max-height: 500px;
+    max-width: 500px;
+    width: 400px;
+    height: 200px;
+    padding-top: 100px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1439px) and (orientation: landscape) {
+  .logo {
+    display: inline-block;
+    max-height: 500px;
+    max-width: 500px;
+    width: 500px;
+    height: 500px;
+    padding-top: 300px;
+  }
+  .title {
+    display: inline-block;
+    max-height: 500px;
+    max-width: 500px;
+    width: 500px;
+    height: 200px;
+    padding-top: 300px;
+  }
+}
+/* ---------------------------------------------------- */
+/* Large devices (Computers, 1440px and up) */
+@media (min-width: 1440px) and (orientation: landscape) {
+  .logo {
+    display: inline-block;
+    padding-top: 200px;
+  }
+  .title {
+    display: inline-block;
+  }
+}
+/* ---------------------------------------------------- */

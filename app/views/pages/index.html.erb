@@ -10,17 +10,17 @@
        <div class="col-xs-12 col-md-12 col-lg-12">
          <img class="logo-heading"><%= image_tag("Thin Mint.svg", alt: "logo-img", height: 720, width: 720) %></img>
        </div>
-       <p>JavaScript Button goes here</p>
-       <button id="jsstyle"
-       onclick="display_random_image();">Show Image</button>
+
+       <p class= "explanation">JavaScript Button goes here</p>
+       <button onclick="myFunction()">Show Image</Button>
+       <button class="generator">Change Theme</button>
 
          <footer class="footer">
-
-              <span class="text-muted"><a href="https://github.com/murphym757/baysidevinyl"><%= image_tag("github.png", alt: "png-img", height: 80, width: 160) %></a>
-                <a href="https://maurice-murphy-portfolio.herokuapp.com/"><%= image_tag("mmlogo.png", alt: "png-img", height: 80, width: 160) %></a><br>Copyright &copy; 2017<br></span>
-
+              <span class="text-muted"><a href="https://github.com/murphym757/bvthemegenerator"><%= image_tag("githublogo.png", alt: "png-img", height: 80, width: 100) %></a>
+                <a href="https://maurice-murphy-portfolio.herokuapp.com/"><%= image_tag("PersonalLogo.png", alt: "png-img", height: 80, width: 100) %></a><br>Copyright &copy; 2017<br></span>
        </footer>
 </li>
    </div>
 
   </div>
+  <%= javascript_include_tag 'bvtheme.js' %>

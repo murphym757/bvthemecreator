@@ -17,3 +17,19 @@
 @import "font-awesome";
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+  html, body {
+    display: table;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    text-align: center;
+    background-image: image-url("Bayside.jpg");
+    background-color: #b1d7c8;
+    background-blend-mode: multiply;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+  }

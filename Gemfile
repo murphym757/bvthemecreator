@@ -14,8 +14,8 @@ gem 'font-awesome-sass'
 gem 'variables'
 gem 'devise', '~> 4.2'
 gem 'bootstrap_form'
-gem 'paperclip', '~> 5.1'
-gem 'aws-sdk', '~> 2.0'
+gem 'sprockets', '>= 3.0.0'
+gem 'sprockets-es6'
 
 
 

@@ -2,17 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
-
-
 /*-------------------------------------------------*/
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -25,34 +22,40 @@ li {
     height: 400px;
     padding-top: 60px;
   }
+
   .title {
     display: inline-block;
   }
   /* JS Generator Buttons */
-      .generator1 {
-        height: 50px;
-        width: 50px;
-      }
-      .generator2 {
-        height: 50px;
-        width: 50px;
-      }
-      .generator3 {
-        height: 50px;
-        width: 50px;
-      }
-      .generator4 {
-        height: 50px;
-        width: 50px;
-      }
-      .generator5 {
-        height: 50px;
-        width: 50px;
-      }
-      .generator6 {
-        height: 50px;
-        width: 50px;
-      }
+  .generator1 {
+    height: 50px;
+    width: 50px;
+  }
+
+  .generator2 {
+    height: 50px;
+    width: 50px;
+  }
+
+  .generator3 {
+    height: 50px;
+    width: 50px;
+  }
+
+  .generator4 {
+    height: 50px;
+    width: 50px;
+  }
+
+  .generator5 {
+    height: 50px;
+    width: 50px;
+  }
+
+  .generator6 {
+    height: 50px;
+    width: 50px;
+  }
 }
 @media (min-width: 300px) and (max-width: 667px) and (orientation: landscape) {
   .logo {
@@ -72,30 +75,35 @@ li {
     padding-top: 50px;
   }
   /* JS Generator Buttons */
-      .generator1 {
-        height: 70px;
-        width: 70px;
-      }
-      .generator2 {
-        height: 70px;
-        width: 70px;
-      }
-      .generator3 {
-        height: 70px;
-        width: 70px;
-      }
-      .generator4 {
-        height: 70px;
-        width: 70px;
-      }
-      .generator5 {
-        height: 70px;
-        width: 70px;
-      }
-      .generator6 {
-        height: 70px;
-        width: 70px;
-      }
+  .generator1 {
+    height: 70px;
+    width: 70px;
+  }
+
+  .generator2 {
+    height: 70px;
+    width: 70px;
+  }
+
+  .generator3 {
+    height: 70px;
+    width: 70px;
+  }
+
+  .generator4 {
+    height: 70px;
+    width: 70px;
+  }
+
+  .generator5 {
+    height: 70px;
+    width: 70px;
+  }
+
+  .generator6 {
+    height: 70px;
+    width: 70px;
+  }
 }
 /* ---------------------------------------------------- */
 /* Small devices (larger phones) */
@@ -104,34 +112,40 @@ li {
     display: inline-block;
     padding-top: 60px;
   }
+
   .title {
     display: inline-block;
   }
   /* JS Generator Buttons */
-      .generator1 {
-        height: 60px;
-        width: 60px;
-      }
-      .generator2 {
-        height: 60px;
-        width: 60px;
-      }
-      .generator3 {
-        height: 60px;
-        width: 60px;
-      }
-      .generator4 {
-        height: 60px;
-        width: 60px;
-      }
-      .generator5 {
-        height: 60px;
-        width: 60px;
-      }
-      .generator6 {
-        height: 60px;
-        width: 60px;
-      }
+  .generator1 {
+    height: 60px;
+    width: 60px;
+  }
+
+  .generator2 {
+    height: 60px;
+    width: 60px;
+  }
+
+  .generator3 {
+    height: 60px;
+    width: 60px;
+  }
+
+  .generator4 {
+    height: 60px;
+    width: 60px;
+  }
+
+  .generator5 {
+    height: 60px;
+    width: 60px;
+  }
+
+  .generator6 {
+    height: 60px;
+    width: 60px;
+  }
 }
 @media (min-width: 668px) and (max-width: 767px) and (orientation: landscape) {
   .logo {
@@ -142,6 +156,7 @@ li {
     height: 300px;
     padding-top: 50px;
   }
+
   .title {
     display: inline-block;
     max-height: 400px;
@@ -150,30 +165,35 @@ li {
     height: 220px;
   }
   /* JS Generator Buttons */
-      .generator1 {
-        height: 70px;
-        width: 70px;
-      }
-      .generator2 {
-        height: 70px;
-        width: 70px;
-      }
-      .generator3 {
-        height: 70px;
-        width: 70px;
-      }
-      .generator4 {
-        height: 70px;
-        width: 70px;
-      }
-      .generator5 {
-        height: 70px;
-        width: 70px;
-      }
-      .generator6 {
-        height: 70px;
-        width: 70px;
-      }
+  .generator1 {
+    height: 70px;
+    width: 70px;
+  }
+
+  .generator2 {
+    height: 70px;
+    width: 70px;
+  }
+
+  .generator3 {
+    height: 70px;
+    width: 70px;
+  }
+
+  .generator4 {
+    height: 70px;
+    width: 70px;
+  }
+
+  .generator5 {
+    height: 70px;
+    width: 70px;
+  }
+
+  .generator6 {
+    height: 70px;
+    width: 70px;
+  }
 }
 /* ---------------------------------------------------- */
 /* Medium devices (tablets, 768px and up/1439px and down) */
@@ -186,6 +206,7 @@ li {
     height: 500px;
     padding-top: 150px;
   }
+
   .title {
     display: inline-block;
     max-height: 500px;
@@ -195,30 +216,35 @@ li {
     padding-top: 150px;
   }
   /* JS Generator Buttons */
-      .generator1 {
-        height: 115px;
-        width: 115px;
-      }
-      .generator2 {
-        height: 115px;
-        width: 115px;
-      }
-      .generator3 {
-        height: 115px;
-        width: 115px;
-      }
-      .generator4 {
-        height: 115px;
-        width: 115px;
-      }
-      .generator5 {
-        height: 115px;
-        width: 115px;
-      }
-      .generator6 {
-        height: 115px;
-        width: 115px;
-      }
+  .generator1 {
+    height: 115px;
+    width: 115px;
+  }
+
+  .generator2 {
+    height: 115px;
+    width: 115px;
+  }
+
+  .generator3 {
+    height: 115px;
+    width: 115px;
+  }
+
+  .generator4 {
+    height: 115px;
+    width: 115px;
+  }
+
+  .generator5 {
+    height: 115px;
+    width: 115px;
+  }
+
+  .generator6 {
+    height: 115px;
+    width: 115px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .logo {
@@ -229,6 +255,7 @@ li {
     height: 400px;
     padding-top: 150px;
   }
+
   .title {
     display: inline-block;
     max-height: 500px;
@@ -238,30 +265,35 @@ li {
     padding-top: 100px;
   }
   /* JS Generator Buttons */
-      .generator1 {
-        height: 120px;
-        width: 120px;
-      }
-      .generator2 {
-        height: 120px;
-        width: 120px;
-      }
-      .generator3 {
-        height: 120px;
-        width: 120px;
-      }
-      .generator4 {
-        height: 120px;
-        width: 120px;
-      }
-      .generator5 {
-        height: 120px;
-        width: 120px;
-      }
-      .generator6 {
-        height: 120px;
-        width: 120px;
-      }
+  .generator1 {
+    height: 120px;
+    width: 120px;
+  }
+
+  .generator2 {
+    height: 120px;
+    width: 120px;
+  }
+
+  .generator3 {
+    height: 120px;
+    width: 120px;
+  }
+
+  .generator4 {
+    height: 120px;
+    width: 120px;
+  }
+
+  .generator5 {
+    height: 120px;
+    width: 120px;
+  }
+
+  .generator6 {
+    height: 120px;
+    width: 120px;
+  }
 }
 /* ---------------------------------------------------- */
 /* Large devices (Laptops (and large resolution tablets), 1025px to 1439px) */
@@ -274,6 +306,7 @@ li {
     height: 400px;
     padding-top: 200px;
   }
+
   .title {
     display: inline-block;
     max-height: 500px;
@@ -283,30 +316,35 @@ li {
     padding-top: 100px;
   }
   /* JS Generator Buttons */
-      .generator1 {
-        height: 120px;
-        width: 120px;
-      }
-      .generator2 {
-        height: 120px;
-        width: 120px;
-      }
-      .generator3 {
-        height: 120px;
-        width: 120px;
-      }
-      .generator4 {
-        height: 120px;
-        width: 120px;
-      }
-      .generator5 {
-        height: 120px;
-        width: 120px;
-      }
-      .generator6 {
-        height: 120px;
-        width: 120px;
-      }
+  .generator1 {
+    height: 120px;
+    width: 120px;
+  }
+
+  .generator2 {
+    height: 120px;
+    width: 120px;
+  }
+
+  .generator3 {
+    height: 120px;
+    width: 120px;
+  }
+
+  .generator4 {
+    height: 120px;
+    width: 120px;
+  }
+
+  .generator5 {
+    height: 120px;
+    width: 120px;
+  }
+
+  .generator6 {
+    height: 120px;
+    width: 120px;
+  }
 }
 @media (min-width: 1025px) and (max-width: 1439px) and (orientation: landscape) {
   .logo {
@@ -317,6 +355,7 @@ li {
     height: 500px;
     padding-top: 100px;
   }
+
   .title {
     display: inline-block;
     max-height: 500px;
@@ -326,30 +365,35 @@ li {
     padding-top: 300px;
   }
   /* JS Generator Buttons */
-      .generator1 {
-        height: 120px;
-        width: 120px;
-      }
-      .generator2 {
-        height: 120px;
-        width: 120px;
-      }
-      .generator3 {
-        height: 120px;
-        width: 120px;
-      }
-      .generator4 {
-        height: 120px;
-        width: 120px;
-      }
-      .generator5 {
-        height: 120px;
-        width: 120px;
-      }
-      .generator6 {
-        height: 120px;
-        width: 120px;
-      }
+  .generator1 {
+    height: 120px;
+    width: 120px;
+  }
+
+  .generator2 {
+    height: 120px;
+    width: 120px;
+  }
+
+  .generator3 {
+    height: 120px;
+    width: 120px;
+  }
+
+  .generator4 {
+    height: 120px;
+    width: 120px;
+  }
+
+  .generator5 {
+    height: 120px;
+    width: 120px;
+  }
+
+  .generator6 {
+    height: 120px;
+    width: 120px;
+  }
 }
 /* ---------------------------------------------------- */
 /* Large devices (Computers, 1440px and up) */
@@ -362,6 +406,7 @@ li {
     height: 500px;
     padding-top: 100px;
   }
+
   .title {
     display: inline-block;
     max-height: 500px;
@@ -371,29 +416,34 @@ li {
     padding-top: 300px;
   }
   /* JS Generator Buttons */
-      .generator1 {
-        height: 120px;
-        width: 120px;
-      }
-      .generator2 {
-        height: 120px;
-        width: 120px;
-      }
-      .generator3 {
-        height: 120px;
-        width: 120px;
-      }
-      .generator4 {
-        height: 120px;
-        width: 120px;
-      }
-      .generator5 {
-        height: 120px;
-        width: 120px;
-      }
-      .generator6 {
-        height: 120px;
-        width: 120px;
-      }
+  .generator1 {
+    height: 120px;
+    width: 120px;
+  }
+
+  .generator2 {
+    height: 120px;
+    width: 120px;
+  }
+
+  .generator3 {
+    height: 120px;
+    width: 120px;
+  }
+
+  .generator4 {
+    height: 120px;
+    width: 120px;
+  }
+
+  .generator5 {
+    height: 120px;
+    width: 120px;
+  }
+
+  .generator6 {
+    height: 120px;
+    width: 120px;
+  }
 }
 /* ---------------------------------------------------- */

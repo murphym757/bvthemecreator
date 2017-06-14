@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app was created to simply serve as a simple theme selector. Using the Dom, I created 6 unique themes (all with sweets influenced names). This code will serve a theme selector for future projects/apps. Simply press any of the 6 buttons on the screen to see a specific theme.
 
-Things you may want to cover:
+Languages and Processes used to create this web app:
 
-* Ruby version
+* Rails (5.0)
 
-* System dependencies
+* HTML 5
 
-* Configuration
+* CSS 3
 
-* Database creation
+* JavaScript (ES6) & (DOM Methods)
 
-* Database initialization
+* Heroku
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* GitHub  
